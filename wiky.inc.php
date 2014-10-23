@@ -15,7 +15,8 @@ class wiky {
 
 	public function __construct($analyze=false) {
 		$this->patterns=array(
-			"/\r\n/",
+			
+			"/\r\n/",							//newline (LF, NL), return (CR)
 			
 			// Headings
 			"/^==== (.+?) ====$/m",						// Subsubheading
