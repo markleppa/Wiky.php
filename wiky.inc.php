@@ -19,9 +19,9 @@ class wiky {
 			"/\r\n/",							//newline (LF, NL), return (CR)
 			
 			// Headings
-			"/^==== (.+?) ====$/m",						// Subsubheading
-			"/^=== (.+?) ===$/m",						// Subheading
-			"/^== (.+?) ==$/m",						// Heading
+			"/^====(.+?)====$/m",						// Subsubheading
+			"/^===(.+?)===$/m",						// Subheading
+			"/^==(.+?)==$/m",						// Heading
 	
 			// Formatting
 			"/\'\'\'\'\'(.+?)\'\'\'\'\'/s",					// Bold-italic
